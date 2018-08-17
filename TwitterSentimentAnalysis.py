@@ -2,11 +2,12 @@ import tweepy
 import matplotlib.pyplot as plt
 from textblob import TextBlob as tb
 
-consumerKey    = ""
-consumerSecret = ""
+# Get these keys from https://developer.twitter.com/
 
-accessToken  = ""
-accessTokenSecret = ""
+consumerKey    = " Your consumer key here"
+consumerSecret = "Your consumer secret key here "
+accessToken  = " Your access token here "
+accessTokenSecret = "Your access token secret here "
 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
